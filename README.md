@@ -18,3 +18,8 @@ GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta - Hg38 fasta file used for tra
 
 All weight files of trained neural network models are available in the google drive below.
 https://drive.google.com/drive/folders/1SrpUKl51AsBG7e5S1ZCkEAxMTSfr76yK?usp=sharing
+
+
+Working to make this public repository more clear and accessible. I will continue to make updates, so thank you for your patience. Any issues, please drop me a message.
+
+-Laksshman
