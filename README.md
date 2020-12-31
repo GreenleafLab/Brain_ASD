@@ -16,3 +16,5 @@ bias.atac.24mer.*.weights.data-00000-of-00001 - Tobias weight tracks
 hg38.chrom.sizes - hg 38 chromosome sizes file 
 GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta - Hg38 fasta file used for training the model
 
+All weight files of trained neural network models are available in the google drive below.
+https://drive.google.com/drive/folders/1SrpUKl51AsBG7e5S1ZCkEAxMTSfr76yK?usp=sharing
