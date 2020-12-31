@@ -24,6 +24,6 @@ All weight files of trained neural network models are available in the google dr
 https://drive.google.com/drive/folders/1SrpUKl51AsBG7e5S1ZCkEAxMTSfr76yK?usp=sharing
 
 
-Working to make this public repository more clear and accessible. I will continue to make updates, so thank you for your patience. Any issues, please drop me a message.
+Working to make this public repository more clear and accessible. I will continue to make updates, so thank you for your patience. 
 
 -Laksshman
