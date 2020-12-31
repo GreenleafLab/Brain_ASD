@@ -2,6 +2,10 @@
 
 This repo contains scripts for training the neural network models used for prioritizing ASD mutations with the fetal brain ATAC-seq atlas
 
+Used to make elements of Figures 7 in Trevino et al. 2020
+
+Preprint here: https://www.biorxiv.org/content/10.1101/2020.12.29.424636v1
+
 Folder Structure :
 
 cluster_peaks :
