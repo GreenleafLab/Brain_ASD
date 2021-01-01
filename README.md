@@ -6,6 +6,8 @@ Used to make elements of Figures 7 in Trevino et al. 2020
 
 Preprint here: https://www.biorxiv.org/content/10.1101/2020.12.29.424636v1
 
+This code base uses two other repos : KerasAC (https://zenodo.org/record/4248179#.X8skj5NKiF0)  and seqdataloader (https://zenodo.org/record/3771365#.X8skqZNKiF0) as part of the data processing and model training scripts. 
+
 Folder Structure :
 
 cluster_peaks :
