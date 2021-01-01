@@ -39,6 +39,8 @@ https://drive.google.com/drive/folders/1SrpUKl51AsBG7e5S1ZCkEAxMTSfr76yK?usp=sha
 
 filtered_mutations: ASD case and control mutations bed files overlapped with cluster specific peaksets and overlapped mutations that will be used for further prioritzation . 
 
+ASD snps scoring, enrichment analysis, motif enrichement & vignette generation.ipynb notebook under Code folder contains the script used to score the mutations, generating vignettes and all enrichment analysis including the motif enrichment
+
 
 
 Working to make this public repository more clear and accessible. We will continue to make updates, so thank you for your patience. 
