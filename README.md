@@ -18,7 +18,7 @@ c*_matched_gc_fold*.csv - Cluster specific gc matched negative regions with 5 di
 OtherFiles: 
 bias.atac.24mer.*.weights.data-00000-of-00001 - Tobias weight tracks 
 hg38.chrom.sizes - hg 38 chromosome sizes file 
-GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta - Hg38 fasta file used for training the model
+GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta - hg38 fasta file used for training the model
 
 train_valid_test_scripts:
 
