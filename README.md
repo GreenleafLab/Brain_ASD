@@ -37,6 +37,7 @@ score :  This folder contains shell scripts for scoring base pair resolution mod
 All weight files of trained neural network models are available in the google drive below.
 https://drive.google.com/drive/folders/1SrpUKl51AsBG7e5S1ZCkEAxMTSfr76yK?usp=sharing
 
+filtered_mutations: ASD case and control mutations bed files overlapped with cluster specific peaksets and overlapped mutations that will be used for further prioritzation . 
 
 
 
