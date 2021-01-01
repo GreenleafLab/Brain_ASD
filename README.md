@@ -20,8 +20,22 @@ bias.atac.24mer.*.weights.data-00000-of-00001 - Tobias weight tracks
 hg38.chrom.sizes - hg 38 chromosome sizes file 
 GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta - Hg38 fasta file used for training the model
 
+train_valid_test_scripts:
+
+params.txt : contains the cluster specific weights for the mean squared error (MSE) loss on the log of the total counts and a multinomial negative log-likelihood loss (MNLL) for the profile probability output and fold specific tobias bias weights for the models.
+
+run.all.sh : contains the calls for train, predict and score files described below. It takes in parameters including the GPU , seed value for all random initializations, the working folder where the outputs weights and other files are to be stored and name for the models that will be used while storing the files. This file is self sufficient for training all the models . 
+
+train : This folder contains shell scripts for training base pair resolution models for all clusters and takes in parameters that are set by the cluster and fold specific run.all.sh file .
+
+predict :  This folder contains shell scripts for predicting base pair resolution models for all clusters and takes in parameters that are set by the cluster and fold specific run.all.sh file .
+
+score :  This folder contains shell scripts for scoring base pair resolution models for all clusters for all the prediction metrics on the witheld test chromosomes and takes in parameters that are set by the cluster and fold specific run.all.sh file .
+
 All weight files of trained neural network models are available in the google drive below.
 https://drive.google.com/drive/folders/1SrpUKl51AsBG7e5S1ZCkEAxMTSfr76yK?usp=sharing
+
+
 
 
 Working to make this public repository more clear and accessible. We will continue to make updates, so thank you for your patience. 
