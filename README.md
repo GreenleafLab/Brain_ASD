@@ -25,9 +25,9 @@ GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta - hg38 fasta file used for tra
 
 train_valid_test_scripts:
 
-params.txt : contains the cluster specific weights for the mean squared error (MSE) loss on the log of the total counts and a multinomial negative log-likelihood loss (MNLL) for the profile probability output and fold specific tobias bias weights for the models.
+params : contains the cluster specific weights for the mean squared error (MSE) loss on the log of the total counts and a multinomial negative log-likelihood loss (MNLL) for the profile probability output and fold specific tobias bias weights for the models.
 
-run.all.sh : contains the calls for train, predict and score files described below. It takes in parameters including the GPU , seed value for all random initializations, the working folder where the outputs weights and other files are to be stored and name for the models that will be used while storing the files. This file is self sufficient for training all the models . 
+run : contains the calls for train, predict and score files described below. It takes in parameters including the GPU , seed value for all random initializations, the working folder where the outputs weights and other files are to be stored and name for the models that will be used while storing the files. This file is self sufficient for training all the models . 
 
 train : This folder contains shell scripts for training base pair resolution models for all clusters and takes in parameters that are set by the cluster and fold specific run.all.sh file .
 
