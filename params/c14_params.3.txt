@@ -1,0 +1,4 @@
+pretrained_bias_model	/home/lakss/misc_files/bias.atac.24mer.3.hdf5
+counts_loss_weight	4.2
+profile_loss_weight	1
+filters	500
