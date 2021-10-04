@@ -1,6 +1,7 @@
 # Brain_ASD
 
-This repo contains scripts for training the neural network models used for prioritizing ASD mutations with the fetal brain ATAC-seq atlas
+This repo contains scripts for training the neural network models used for prioritizing ASD mutations with the fetal brain ATAC-seq atlas.
+Another repo for the raw dataset and single cell analysis used in the manuscript can be found here : https://github.com/GreenleafLab/brainchromatin
 
 Used to train BPNET models in Trevino et al. 2020
 
@@ -13,7 +14,7 @@ Folder Structure :
 cluster_peaks :
 peaks_c*_bpnet.csv - Cluster specific peaks extended +/-500 bp around the summit.
 peaks_all_bpnet.csv - Peaks called from pseudobulk of all cells across all timepoints.
-Due to size constraints the bigwigs for training are available through GEO.
+The bigwigs used for model training can be obtained from the links.txt file in the repo : https://github.com/GreenleafLab/brainchromatin/blob/main/links.txt
 
 gc_matched_peaks:
 c*_matched_gc_fold*.csv - Cluster specific gc matched negative regions with 5 different matched negatives as 5 folds.
